@@ -1,5 +1,6 @@
 package com.dio.santander.banklineapi.model;
 
+
 public class Correntista {
 	private Integer id;
 	private String cpf;
