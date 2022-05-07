@@ -1,3 +1,4 @@
+
 package com.dio.santander.banklineapi.model;
 
 import javax.persistence.Column;
@@ -10,7 +11,6 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tab_correntista")
-
 public class Correntista {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

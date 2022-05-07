@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 
-@EntityScan (basePackages = "dio.santander.banklineapi.model")
+@EntityScan(basePackages = "com.dio.santander.banklineapi.model")
 
 @SpringBootApplication
 public class BanklineApiApplication {

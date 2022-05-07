@@ -13,7 +13,6 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tab_movimentacao")
-
 public class Movimentacao {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,7 +24,7 @@ public class Movimentacao {
 	@Enumerated(EnumType.STRING)
 	private MovimentacaoTipo tipo;
 	
-	@Column (name = "id_conta")
+	@Column(name = "id_conta")
 	private Integer idConta;
 	
 	public Integer getId() {
